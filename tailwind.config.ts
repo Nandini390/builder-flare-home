@@ -57,6 +57,13 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        ayur: {
+          saffron: "hsl(var(--saffron))",
+          leaf: "hsl(var(--leaf))",
+          sandal: "hsl(var(--sandal))",
+          marigold: "hsl(var(--marigold))",
+          deep: "hsl(var(--deep))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
