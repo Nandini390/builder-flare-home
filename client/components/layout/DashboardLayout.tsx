@@ -20,7 +20,7 @@ import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import { Flower2, Home, FileDown, Settings, User } from "lucide-react";
+import { Home, FileDown, Settings, User } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Link, useLocation } from "react-router-dom";
 
@@ -32,10 +32,12 @@ export default function DashboardLayout({ children, rightPanel }: { children: Re
       <Sidebar collapsible="icon" variant="floating">
         <SidebarHeader className="pt-4">
           <div className="flex items-center gap-2 px-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-md bg-[hsl(var(--saffron))] text-white shadow-sm">
-              <Flower2 className="h-5 w-5" />
-            </div>
-            <div className="font-semibold tracking-wide">Panchakarma</div>
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F2c750484ced041729653b490fdd78f55%2F383493e645e74414bfa819218e1479c3?format=webp&width=80"
+              alt="AyurSutra logo"
+              className="h-8 w-8 rounded-md bg-white object-contain ring-1 ring-border p-1"
+            />
+            <div className="font-semibold tracking-wide">AyurSutra</div>
           </div>
         </SidebarHeader>
         <SidebarContent>
